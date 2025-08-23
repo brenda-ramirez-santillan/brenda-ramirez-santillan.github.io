@@ -24,35 +24,7 @@
     ]
   }
   </script>
-  <style>
-    :root{--bg:#0b0c10;--card:#121318;--muted:#9aa3b2;--fg:#e6eaf2;--accent:#5eead4;--link:#8ab4f8}
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Noto Sans','Helvetica Neue',Arial,'Apple Color Emoji','Segoe UI Emoji'}
-    a{color:var(--link);text-decoration:none}
-    a:hover{text-decoration:underline}
-    .wrap{max-width:1080px;margin:0 auto;padding:24px}
-    header{display:flex;gap:24px;align-items:center;justify-content:space-between}
-    .brand{display:flex;gap:16px;align-items:center}
-    .avatar{width:72px;height:72px;border-radius:50%;background:#1f2330;border:2px solid #23283b;object-fit:cover}
-    h1{font-size:clamp(1.6rem,2.5vw,2.2rem);margin:0 0 4px}
-    .subtitle{color:var(--muted);margin:0}
-    nav{display:flex;gap:16px;flex-wrap:wrap}
-    nav a{padding:8px 12px;border:1px solid #2a3042;border-radius:999px;color:var(--fg)}
-    nav a:hover{background:#181c27}
-    .hero{margin:36px 0;display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
-    .card{background:var(--card);border:1px solid #1c2233;border-radius:16px;padding:20px;box-shadow:0 10px 24px rgba(0,0,0,.24)}
-    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
-    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;border:1px solid #263045;background:#1a2233;color:var(--fg);cursor:pointer}
-    .btn.primary{background:linear-gradient(135deg,#1e293b,#0f172a);border-color:#2a3a5a}
-    .btn.accent{background:linear-gradient(135deg,#0f766e,#115e59);border-color:#0e4d4a}
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
-    .tag{display:inline-block;font-size:.8rem;padding:2px 8px;border-radius:999px;background:#1a2233;border:1px solid #2a3a5a;color:var(--muted)}
-    .muted{color:var(--muted)}
-    footer{margin:48px 0 16px;color:var(--muted);font-size:.9rem}
-    :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
-    @media print{nav, .cta, .screen-only{display:none} .card{box-shadow:none;border-color:#ddd}}
-    @media (max-width:860px){.hero{grid-template-columns:1fr}}
-  </style>
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
   <div class="wrap">
